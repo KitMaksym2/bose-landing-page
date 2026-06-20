@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="header__container">
             <div class="header__container-top">
                 <img src="assets/icon/Logo.png" alt="">
@@ -26,20 +26,22 @@
     </header>
     <input type="checkbox" class="header__burger-checkbox" id="menu">
     <div class="sidebar__container">
-        <div class="sidebar__container-top">
-            <img src="assets/icon/Logo.png" alt="">
-            <label for="menu">
-                <img src="assets/icon/exit.png" alt="" class="exit">
-            </label>
+        <div class="sidebar__container2">
+            <div class="sidebar__container-top">
+                <img src="assets/icon/Logo.png" alt="">
+                <label for="menu">
+                    <img src="assets/icon/exit.png" alt="" class="exit">
+                </label>
+            </div>
+            <div class="sidebar__container-navigation">
+                <a href="#header" class="sidebar__container-navigation-text">HOME</a>
+                <a href="#recommended" class="sidebar__container-navigation-text">RECOMMENDED</a>
+                <a href="#categories" class="sidebar__container-navigation-text">CATEGORIES</a>
+                <a href="#whybuy" class="sidebar__container-navigation-text">HOW TO BUY</a>
+            </div>
         </div>
-        <div class="sidebar__container-navigation">
-            <p class="sidebar__container-navigation-text">HOME</p>
-            <p class="sidebar__container-navigation-text">RECOMMENDED</p>
-            <p class="sidebar__container-navigation-text">CATEGORIES</p>
-            <p class="sidebar__container-navigation-text">HOW TO BUY</p>
-        </div>
-    </div>
-    <section>
+     </div>
+    <section id="recommended">
         <h1 class="recommended__title">Recommended</h1>
         <div class="recommended__container">
             <div class="recommended__container-card">
@@ -62,7 +64,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section id="categories">
         <h1 class="browse__title">Browse Bose products by category</h1>
         <div class="browse__container">
             <img src="assets/browse products/1.png" alt="" class="a1">
@@ -76,7 +78,7 @@
             <h3 class="t3">Audio sunglasses</h3>
         </div>
     </section>
-    <section>
+    <section id="whybuy">
         
         <div class="why-buy__container">
                 <h1 class="why-buy__title">Why buy direct<br>from Bose</h1>
